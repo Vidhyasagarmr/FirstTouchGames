@@ -5,7 +5,7 @@ body{
 .first-page{
     width: 100%;
     height:742px;
-    background-image: url(/FirstTouchGames/Images/FTG_BG01.jpg);
+    background-image: url(Images/FTG_BG01.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y:-86px ;
@@ -15,6 +15,7 @@ body{
     justify-content:space-between;
     flex-wrap: wrap;
     align-self: center;
+
 
 }
 .image{
@@ -196,7 +197,7 @@ font-size: 170%;
     width: 100%;
     height: 278px;
     background: white;
-    background-image: url(/FirstTouchGames/Images/FTG_BG01.jpg);
+    background-image: url(Images/FTG_BG01.jpg);
     mix-blend-mode:calc(2,3);
     background-repeat: repeat-x;
     background-size: 60%;
@@ -269,7 +270,7 @@ font-size: 170%;
 .section-3{
     width: 100%;
     height: 278px;
-    background-image: url(/FirstTouchGames/Images/FTG_BG02.jpg);
+    background-image: url(Images/FTG_BG02.jpg);
     background-repeat: repeat-x;
     background-position-x: -210px ;
     background-size: 50%;
