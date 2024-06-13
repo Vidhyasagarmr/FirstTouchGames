@@ -1,0 +1,331 @@
+
+body{
+    margin: 0;
+} 
+.first-page{
+    width: 100%;
+    height:742px;
+    background-image: url(/FirstTouchGames/Images/FTG_BG01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y:-86px ;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-self: center;
+
+}
+.image{
+    width: 500px;
+    height: 100px;
+    
+}
+img{
+    width: 180px;
+    height: auto;
+    margin-top: 13px;
+    margin-left: 74px;
+    vertical-align: middle;
+    
+}
+.nav-header{
+    width: 500px;
+    height: 100px;
+    margin-top: 0;
+    color: white;
+    padding-left: 540px;    
+    flex: 2;
+
+}
+li{
+    list-style-type: none;
+    float: left;
+    font-family: BebasNeue, sans-serif;
+    margin-right: -20px;
+    font-stretch: ultra-condensed;
+    font-weight: bold;
+    font-size:20px;
+    word-spacing: 1PX;
+    transform: scaleX(.5);
+    font-weight: 900; 
+}
+
+.home{
+    text-decoration: underline;
+    text-decoration-color:#ca0701;
+    padding-bottom: 5px;
+    cursor: pointer;
+    
+}
+.about,.games,.support,.careers{
+    cursor: pointer;
+}
+.about:hover,.games:hover,.support:hover,.careers:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #ca0701;
+    
+}
+h1{
+    margin-left: -615px;
+    font-size: 145px;
+    transform: scaleX(.61);
+    font-family: sans-serif;
+    line-height: 1px;
+    font-stretch: ultra-expanded;
+    margin-top: 100px;
+
+}
+h3{
+    margin-top: 120px;
+    margin-left: -620px;
+    font-size:60px;
+    line-height: 1px;
+    transform: scaleX(.6);
+    font-family: sans-serif;
+}
+.section-2{
+    width: 100%;
+    height: 2226px;
+    padding-top: 20px;
+}
+.para{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 75px;
+    font-stretch: expanded;
+    line-height: 30px;
+    margin-top: 30px;
+    background: white;
+    color: red;
+}
+.content
+{
+    width: 100%;
+    height: 1672px;
+    margin-top: -30px;
+    background: green;
+}
+.img1,.img4,.img5,.img8{
+    width: 50%;
+    height: 418px;
+    background: orange;
+    display: inline;
+    float: left;
+
+}
+.img2,.img3,.img6,.img7{
+    width: 50%;
+    height: 418px;
+    background: whitesmoke;
+    display: inline;
+    float: left;
+    text-align: center;
+    color: #ca0701; 
+}
+.images{
+    margin: 0;
+    width:100% ;
+    height: 418px;
+}
+h4{
+    font-size: 50px;
+    transform: scaleX(.7);
+    text-align: left;
+    margin-right:60px;
+    margin-top: 80px;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-left: -30px;
+    font-family: sans-serif;
+}
+p{
+   font-size: 20px;
+   text-align: left;
+   margin-top: -22px;
+   margin-left: 77px;
+   font-family: sans-serif;
+   line-height: 30px;
+   font-stretch: extra-expanded;
+    
+    
+}
+button{
+    background: #ca0701;
+    color: white;
+    border: 0;
+    border-color:#ca0701;
+    cursor: pointer;
+    font-size: 25px;
+    transform: scaleX(.8);
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+button:hover{
+font-size: 170%;
+
+}
+.img3,.img7{
+    color: white;
+    background:#ca0701 ;
+}
+.btn1,.btn2{
+    border: 3px solid white;
+}
+.btn1:hover{
+    background: white;
+    color: #ca0701;
+}
+.img6{
+    background: white;
+}
+.content2{
+    width: 100%;
+    height: 157px;
+    background: red;
+    margin-top: -11px;
+}
+
+.bgimg{
+    width: 100%;
+    height: 278px;
+    background: white;
+    background-image: url(/FirstTouchGames/Images/FTG_BG01.jpg);
+    mix-blend-mode:calc(2,3);
+    background-repeat: repeat-x;
+    background-size: 60%;
+       
+}
+.content2{
+    display: flex;
+}
+.first-logo{
+    width: 200px;
+    height:157px ;
+    background: green;
+}
+.logo1{
+    width: 80px;
+    height: 30px    ;
+    margin-top: 60px;
+    margin-left: 140px;
+    margin-right: 50px;
+    cursor: pointer;
+
+}
+.logo2{
+    width: 70px;
+    margin-top: 60px;
+    margin-left: -20px;
+    cursor: pointer;
+
+}
+.logo3{
+    width: 90px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.copyright{
+    width: 200px;
+    height:157px ;
+    background: green;
+    
+    
+}
+.copyright-para{
+    font-size: 13px;
+    text-align: center;
+    margin-top:20px;
+    margin-left: 145px;
+    color: white;
+    line-height: 20px;
+}
+.logo1:hover,.logo2:hover,.logo3:hover{
+    transform: scale(1.1);
+}
+
+.icon1,.icon2,.icon3{
+    width: 33px;
+    margin-left: 250px;
+    margin-right: -230px;
+    margin-top: 50px;
+    border: 5px solid white;
+    padding: 4px 4px;
+    cursor: pointer;
+}
+.icon1:hover,.icon2:hover,.icon3:hover{
+    transform: scale(1.1);
+}
+.section-3{
+    width: 100%;
+    height: 278px;
+    background-image: url(/FirstTouchGames/Images/FTG_BG02.jpg);
+    background-repeat: repeat-x;
+    background-position-x: -210px ;
+    background-size: 50%;
+}
+.twitter-red-logo{
+    width: 100%;
+    height:177px;
+    padding-top: 90px;
+    text-align: center;
+    background-blend-mode: multiply;
+    
+    
+}
+.twitter-logo{
+    width: 60px;
+    height: 60px;
+    margin-top: -20px;
+    background-blend-mode: multiply;
+
+}
+.firsttouch{
+    display: inline;
+    font-size: 60px;
+    margin-top: 20px;
+    text-align: center;
+    transform:scale(.5,.5);
+    color:#ca0701 ;
+    font-size: 50px;  
+    font-weight: 100;  
+}
+.ftg-logo{
+    margin-left: 200px;
+}
+.btn{
+    width: 100%;
+    height: 100px;
+    margin-bottom: -170px;
+    padding-left: 650px;
+    padding-top: 150px;
+    
+}
+.aboutus{
+    margin: 50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
